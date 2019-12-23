@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico|Righteous|Roboto');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+/* Main page */
+
+#background-image {
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+}
+
+#banner{
+
+    position: absolute;
+    text-align: center;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    color: white;
+    width: 100vw;
+}
+
+#banner p{
+    font-family: 'Pacifico', cursive;
+    font-size: 140%;
+}
+
+#banner h1{
+    font-family: 'Righteous', cursive;
+    font-size: 60px;
+}
+
+/* The map container */
+
+#map-container{
+    width: 100vw;
+    height: 100vh;
+}
+
+#leaflet{
+
+    text-align: center;
+
+    width: 80%;
+    height: 100%;
+
+    display: inline-block;
+}
+
+/* Legenda */
+
+#legenda{
+
+    background-color: rgb(181, 214, 139);
+
+    width: 19%;
+    height: 100vh;
+
+    display: inline-block;
+    vertical-align: top;
+    font-family: 'Roboto', sans-serif;
+}
+
+#legenda button{
+    margin-top: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+
+    margin-bottom: 10%;
+    display: block;
+
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 15%;
+    padding-right: 15%;
+
+    border: solid white;
+    border-radius: 20px;
+
+    font-size: 100%;
+
+    color: white;
+    background-color: rgb(181, 214, 139);
+}
+
+@media screen and (max-width: 750px) {
+
+   /* map */
+   #leaflet{
+    height: 90vh;
+    width: 100vw;
+   }
+   #legenda{
+     width: 100vw;
+     text-align: center;
+    }
+
+   #legenda button{
+    display: inline;
+
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+    margin-left: 1%;
+    margin-right: 1%;
+
+    padding-left: 5%;
+    padding-right: 5%;
+   }
+}

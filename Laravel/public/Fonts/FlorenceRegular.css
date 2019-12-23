@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'FlorenceRegular';
+    src: url('FlorenceRegular/FlorenceRegular.eot');
+    src: url('FlorenceRegular/FlorenceRegular.eot') format('embedded-opentype'),
+         url('FlorenceRegular/FlorenceRegular.woff2') format('woff2'),
+         url('FlorenceRegular/FlorenceRegular.woff') format('woff'),
+         url('FlorenceRegular/FlorenceRegular.ttf') format('truetype'),
+         url('FlorenceRegular/FlorenceRegular.svg#FlorenceRegular') format('svg');
+}

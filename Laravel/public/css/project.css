@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico|Righteous|Roboto');
+    
+    *{
+        margin: 0px;
+        padding: 0px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+
+body{
+    background-color: rgb(181, 214, 139); /* Black*/
+}
+
+.container{
+    text-align: center;
+    
+    float: left;
+
+    width: 100vw;
+    height: auto;
+  }
+
+  /* The banner */
+  
+  #banner{ 
+    width: 100vw;
+    height: 150px;
+
+    float: left;
+  }
+  
+  #banner img{
+    width: 100vw;
+    height: 200px;
+
+    object-fit: cover;
+  
+    mask:-moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%); /* FF3.6-15 */
+    mask: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* Chrome10-25,Safari5.1-6 */
+    mask: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+    -webkit-mask: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%); /* FF3.6-15 */
+    -webkit-mask: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* Chrome10-25,Safari5.1-6 */
+    -webkit-mask: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+    z-index: -1;
+  }
+  
+  #banner h1{
+    color: white;
+  
+    position: absolute;
+    
+    top: 95px;
+    left: 50%;
+    
+    transform: translate(-50%, -91%);
+  }
+
+  /* Project explanation container */
+
+  #project-exp{
+    text-align: left;
+    
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 250px;
+
+    padding: 50px;
+    background-color: white;
+
+    border-radius: 20px;
+    opacity: 0.8;
+
+    min-width: 450px;
+
+    color: black;
+  }
+  
+  #project-exp h1{ margin-bottom: 15px; }
+  #project-exp p{
+
+    -moz-hyphens:auto;
+    -ms-hyphens:auto;
+    -webkit-hyphens:auto;
+    hyphens:auto;
+    word-wrap:break-word;
+  }
+
+  .img-container{ text-align: center; }
+
+  .img-container img{
+    max-width: 250px;
+    max-height: 250px;
+    
+    object-fit: cover;
+    margin: 50px;
+  }
+
+  @media screen and (max-width: 653px) {
+    
+    /* The info card */
+    #project-exp{ 
+      min-width: 50px;
+ 
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+  }
+

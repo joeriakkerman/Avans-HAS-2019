@@ -1,0 +1,526 @@
+{
+  "id": "abe8d8b9-c1de-4433-886b-33f8d74e0ba5",
+  "version": "2.0",
+  "name": "RoadLeaf",
+  "url": "http://localhost/home",
+  "tests": [{
+    "id": "e93225ae-8388-45f8-98a3-e8ffefebfb21",
+    "name": "Front-end test v1",
+    "commands": [{
+      "id": "548ea7c1-756f-4555-a093-50bb5a0c1ff7",
+      "comment": "",
+      "command": "open",
+      "target": "/home",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "17f7402e-3843-4a56-92b1-923cb7f32bf3",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "2576x1416",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c7fab879-d11e-4422-aa42-03a84f6ecc14",
+      "comment": "",
+      "command": "click",
+      "target": "css=.navbtn",
+      "targets": [
+        ["css=.navbtn", "css:finder"],
+        ["xpath=//span[@onclick='openNav()']", "xpath:attributes"],
+        ["xpath=//span", "xpath:position"],
+        ["xpath=//span[contains(.,'☰')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9fdd8c43-6499-49a9-b73e-bb235f0c7538",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Home",
+      "targets": [
+        ["linkText=Home", "linkText"],
+        ["css=#mysidenav > a:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Home')]", "xpath:link"],
+        ["xpath=//div[@id='mysidenav']/a[2]", "xpath:idRelative"],
+        ["xpath=//a[@href='http://localhost/home']", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Home')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "15b48c36-e692-468a-a4fa-eb7ef5f7418b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.navbtn",
+      "targets": [
+        ["css=.navbtn", "css:finder"],
+        ["xpath=//span[@onclick='openNav()']", "xpath:attributes"],
+        ["xpath=//span", "xpath:position"],
+        ["xpath=//span[contains(.,'☰')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "26f0926d-89fe-49e3-b28e-4620e4503772",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=About",
+      "targets": [
+        ["linkText=About", "linkText"],
+        ["css=#mysidenav > a:nth-child(4)", "css:finder"],
+        ["xpath=//a[contains(text(),'About')]", "xpath:link"],
+        ["xpath=//div[@id='mysidenav']/a[4]", "xpath:idRelative"],
+        ["xpath=//a[@href='http://localhost/about']", "xpath:href"],
+        ["xpath=//a[4]", "xpath:position"],
+        ["xpath=//a[contains(.,'About')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ec9b5dd8-758c-4886-9dcd-9e256418f068",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cardbtn",
+      "targets": [
+        ["css=.cardbtn", "css:finder"],
+        ["xpath=//span[@onclick='showCard()']", "xpath:attributes"],
+        ["xpath=//div[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'☳')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cd326875-3421-449b-9806-54788e218c50",
+      "comment": "",
+      "command": "click",
+      "target": "css=span:nth-child(1)",
+      "targets": [
+        ["css=span:nth-child(1)", "css:finder"],
+        ["xpath=//span[@onclick='hideCard()']", "xpath:attributes"],
+        ["xpath=//div[@id='card']/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'×')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2c00e342-969d-4c24-937e-b5a4b27e07c0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.navbtn",
+      "targets": [
+        ["css=.navbtn", "css:finder"],
+        ["xpath=//span[@onclick='openNav()']", "xpath:attributes"],
+        ["xpath=//span", "xpath:position"],
+        ["xpath=//span[contains(.,'☰')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4616e2fd-6e02-427c-ac53-dafe116dcbda",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Home",
+      "targets": [
+        ["linkText=Home", "linkText"],
+        ["css=a:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Home')]", "xpath:link"],
+        ["xpath=//div[@id='mysidenav']/a[2]", "xpath:idRelative"],
+        ["xpath=//a[@href='http://localhost/home']", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Home')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "84a6d1fb-1ad8-48a0-824e-bd1684d789d3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.navbtn",
+      "targets": [
+        ["css=.navbtn", "css:finder"],
+        ["xpath=//span[@onclick='openNav()']", "xpath:attributes"],
+        ["xpath=//span", "xpath:position"],
+        ["xpath=//span[contains(.,'☰')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "98b15291-f0a7-47b8-a696-f1ffee9d7815",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Project",
+      "targets": [
+        ["linkText=Project", "linkText"],
+        ["css=a:nth-child(5)", "css:finder"],
+        ["xpath=//a[contains(text(),'Project')]", "xpath:link"],
+        ["xpath=//div[@id='mysidenav']/a[5]", "xpath:idRelative"],
+        ["xpath=//a[@href='http://localhost/project']", "xpath:href"],
+        ["xpath=//a[5]", "xpath:position"],
+        ["xpath=//a[contains(.,'Project')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e7860f56-6353-411e-bb92-823499298f0c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.navbtn",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8b85cdb6-a1e5-4b27-82a8-00e6daa2a6b0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Home",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "b1fc6913-4b59-4cd1-90ac-449bb9bc1afc",
+    "name": "Front-end + map",
+    "commands": [{
+      "id": "16c67d4c-4530-4db3-a732-61883e26e450",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/home",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7cbb1304-fa65-4c2e-8179-5d1f48ea5f8f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1189x1280",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "85edadd4-8ada-421f-9967-1090e6aafc0d",
+      "comment": "",
+      "command": "click",
+      "target": "css=button:nth-child(1)",
+      "targets": [
+        ["css=button:nth-child(1)", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='legenda']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'categorie 1')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b85002ac-3329-47be-94bb-6c0514e891d5",
+      "comment": "",
+      "command": "click",
+      "target": "css=button:nth-child(2)",
+      "targets": [
+        ["css=button:nth-child(2)", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='legenda']/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'categorie 2')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "88d86ec1-6ff9-4726-af2d-df5e12762e39",
+      "comment": "",
+      "command": "click",
+      "target": "css=button:nth-child(3)",
+      "targets": [
+        ["css=button:nth-child(3)", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='legenda']/button[3]", "xpath:idRelative"],
+        ["xpath=//button[3]", "xpath:position"],
+        ["xpath=//button[contains(.,'categorie 3')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9585e61d-f99d-44d5-b176-a42171e4ce3a",
+      "comment": "",
+      "command": "click",
+      "target": "css=button:nth-child(4)",
+      "targets": [
+        ["css=button:nth-child(4)", "css:finder"],
+        ["xpath=(//button[@type='button'])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='legenda']/button[4]", "xpath:idRelative"],
+        ["xpath=//button[4]", "xpath:position"],
+        ["xpath=//button[contains(.,'categorie 4')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4c465f81-0132-41dc-96f3-a3b70048bef4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=+",
+      "targets": [
+        ["linkText=+", "linkText"],
+        ["css=.leaflet-control-zoom-in", "css:finder"],
+        ["xpath=//a[contains(text(),'+')]", "xpath:link"],
+        ["xpath=//div[@id='leaflet']/div[2]/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'+')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ef924fd8-6f3d-4a43-8f63-14ea8daf2031",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=−",
+      "targets": [
+        ["linkText=−", "linkText"],
+        ["css=.leaflet-control-zoom-out", "css:finder"],
+        ["xpath=//a[contains(text(),'−')]", "xpath:link"],
+        ["xpath=//div[@id='leaflet']/div[2]/div/div/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[2]", "xpath:href"],
+        ["xpath=//div/div/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'−')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1bab2221-7b90-4407-965f-42e4e4ef13e8",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=−",
+      "targets": [
+        ["linkText=−", "linkText"],
+        ["css=.leaflet-control-zoom-out", "css:finder"],
+        ["xpath=//a[contains(text(),'−')]", "xpath:link"],
+        ["xpath=//div[@id='leaflet']/div[2]/div/div/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[2]", "xpath:href"],
+        ["xpath=//div/div/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'−')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "07f39e45-2d9a-4072-a355-c1b19f3b7178",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=−",
+      "targets": [
+        ["linkText=−", "linkText"],
+        ["css=.leaflet-control-zoom-out", "css:finder"],
+        ["xpath=//a[contains(text(),'−')]", "xpath:link"],
+        ["xpath=//div[@id='leaflet']/div[2]/div/div/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[2]", "xpath:href"],
+        ["xpath=//div/div/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'−')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2d2fd640-c38c-46e4-85a8-a0f266a3126b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.navbtn",
+      "targets": [
+        ["css=.navbtn", "css:finder"],
+        ["xpath=//span[@onclick='openNav()']", "xpath:attributes"],
+        ["xpath=//span", "xpath:position"],
+        ["xpath=//span[contains(.,'☰')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fd3bb207-0ba3-474b-9176-111a77c14656",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Home",
+      "targets": [
+        ["linkText=Home", "linkText"],
+        ["css=#mysidenav > a:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Home')]", "xpath:link"],
+        ["xpath=//div[@id='mysidenav']/a[2]", "xpath:idRelative"],
+        ["xpath=//a[@href='http://localhost/home']", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Home')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "14925322-7afe-4433-8f76-ba32c43001bb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.navbtn",
+      "targets": [
+        ["css=.navbtn", "css:finder"],
+        ["xpath=//span[@onclick='openNav()']", "xpath:attributes"],
+        ["xpath=//span", "xpath:position"],
+        ["xpath=//span[contains(.,'☰')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0dc34f81-3bed-452b-9352-bf20f8125442",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=About",
+      "targets": [
+        ["linkText=About", "linkText"],
+        ["css=#mysidenav > a:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'About')]", "xpath:link"],
+        ["xpath=//div[@id='mysidenav']/a[3]", "xpath:idRelative"],
+        ["xpath=//a[@href='http://localhost/about']", "xpath:href"],
+        ["xpath=//a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'About')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2c120742-ea1a-41d5-872b-fff49d04c90a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cardbtn",
+      "targets": [
+        ["css=.cardbtn", "css:finder"],
+        ["xpath=//span[@onclick='showCard()']", "xpath:attributes"],
+        ["xpath=//div[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'☳')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bf3e871f-5eeb-48fe-9e2e-862f066b4871",
+      "comment": "",
+      "command": "click",
+      "target": "css=span:nth-child(1)",
+      "targets": [
+        ["css=span:nth-child(1)", "css:finder"],
+        ["xpath=//span[@onclick='hideCard()']", "xpath:attributes"],
+        ["xpath=//div[@id='card']/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'×')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3f70a832-6240-43c4-8434-8b4c27772fd0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.navbtn",
+      "targets": [
+        ["css=.navbtn", "css:finder"],
+        ["xpath=//span[@onclick='openNav()']", "xpath:attributes"],
+        ["xpath=//span", "xpath:position"],
+        ["xpath=//span[contains(.,'☰')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "63af0d91-7853-4453-b5e1-5f27670f9437",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=About",
+      "targets": [
+        ["linkText=About", "linkText"],
+        ["css=a:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'About')]", "xpath:link"],
+        ["xpath=//div[@id='mysidenav']/a[3]", "xpath:idRelative"],
+        ["xpath=//a[@href='http://localhost/about']", "xpath:href"],
+        ["xpath=//a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'About')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "97aa1808-e423-43ae-b3bb-67ecd03365f4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.navbtn",
+      "targets": [
+        ["css=.navbtn", "css:finder"],
+        ["xpath=//span[@onclick='openNav()']", "xpath:attributes"],
+        ["xpath=//span", "xpath:position"],
+        ["xpath=//span[contains(.,'☰')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ed2f930b-1c84-45fc-92ba-a959910a9d0d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Home",
+      "targets": [
+        ["linkText=Home", "linkText"],
+        ["css=a:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Home')]", "xpath:link"],
+        ["xpath=//div[@id='mysidenav']/a[2]", "xpath:idRelative"],
+        ["xpath=//a[@href='http://localhost/home']", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Home')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a8bbe100-f540-4244-97a5-a2c527c62d51",
+      "comment": "",
+      "command": "click",
+      "target": "css=.navbtn",
+      "targets": [
+        ["css=.navbtn", "css:finder"],
+        ["xpath=//span[@onclick='openNav()']", "xpath:attributes"],
+        ["xpath=//span", "xpath:position"],
+        ["xpath=//span[contains(.,'☰')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2f4d2218-d0c0-4a3d-adf6-8478b9fbb1d9",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Project",
+      "targets": [
+        ["linkText=Project", "linkText"],
+        ["css=#mysidenav > a:nth-child(4)", "css:finder"],
+        ["xpath=//a[contains(text(),'Project')]", "xpath:link"],
+        ["xpath=//div[@id='mysidenav']/a[4]", "xpath:idRelative"],
+        ["xpath=//a[@href='http://localhost/project']", "xpath:href"],
+        ["xpath=//a[4]", "xpath:position"],
+        ["xpath=//a[contains(.,'Project')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "141951c5-9215-4e95-9a82-07b3f78602f7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.navbtn",
+      "targets": [
+        ["css=.navbtn", "css:finder"],
+        ["xpath=//span[@onclick='openNav()']", "xpath:attributes"],
+        ["xpath=//span", "xpath:position"],
+        ["xpath=//span[contains(.,'☰')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b99ab81f-a690-4526-b381-443abfe8f302",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=About",
+      "targets": [
+        ["linkText=About", "linkText"],
+        ["css=a:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'About')]", "xpath:link"],
+        ["xpath=//div[@id='mysidenav']/a[3]", "xpath:idRelative"],
+        ["xpath=//a[@href='http://localhost/about']", "xpath:href"],
+        ["xpath=//a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'About')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4e1f005d-30ec-46ee-b439-84327b0d725c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.navbtn",
+      "targets": [
+        ["css=.navbtn", "css:finder"],
+        ["xpath=//span[@onclick='openNav()']", "xpath:attributes"],
+        ["xpath=//span", "xpath:position"],
+        ["xpath=//span[contains(.,'☰')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e48b194f-57c7-4481-a876-81c150e29f18",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Home",
+      "targets": [
+        ["linkText=Home", "linkText"],
+        ["css=a:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Home')]", "xpath:link"],
+        ["xpath=//div[@id='mysidenav']/a[2]", "xpath:idRelative"],
+        ["xpath=//a[@href='http://localhost/home']", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Home')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "40572ff1-197a-43d2-bfa3-ae29abd0cead",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["e93225ae-8388-45f8-98a3-e8ffefebfb21"]
+  }],
+  "urls": ["http://localhost/", "http://localhost/home"],
+  "plugins": []
+}

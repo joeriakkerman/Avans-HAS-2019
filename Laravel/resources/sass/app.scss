@@ -1,0 +1,24 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+@font-face {
+  font-family: "VerveineW01-Regular";
+  src: url("//db.onlinewebfonts.com/t/b3fb273a4c9c465126f860b59809fd4a.eot");
+  src: url("//db.onlinewebfonts.com/t/b3fb273a4c9c465126f860b59809fd4a.eot?#iefix") format("embedded-opentype"),
+  url("//db.onlinewebfonts.com/t/b3fb273a4c9c465126f860b59809fd4a.woff2") format("woff2"),
+  url("//db.onlinewebfonts.com/t/b3fb273a4c9c465126f860b59809fd4a.woff") format("woff"),
+  url("//db.onlinewebfonts.com/t/b3fb273a4c9c465126f860b59809fd4a.ttf") format("truetype"),
+  url("//db.onlinewebfonts.com/t/b3fb273a4c9c465126f860b59809fd4a.svg#VerveineW01-Regular") format("svg");
+}
