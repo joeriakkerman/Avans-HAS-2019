@@ -24,7 +24,7 @@
         "vue-template-compiler": "^2.6.10"
     },
     "dependencies": {
-        "chart.js": "^2.8.0",
+        "chart.js": "^2.9.4",
         "leaflet": "^1.5.1",
         "leaflet-draw": "^1.0.4",
         "leaflet-routing-machine": "^3.2.12",
